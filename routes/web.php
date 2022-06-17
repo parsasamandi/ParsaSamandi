@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AboutMeController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +17,6 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/#about-me', [HomeController::class, 'index']);
+
+

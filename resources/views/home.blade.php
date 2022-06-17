@@ -26,7 +26,7 @@
         <!--mouse  follower-->
         <!--loader-->
         <div id="loader">
-            <span class="color">Bahare</span>Noorani
+            Parsa Samandi
         </div>
         <!--loader-end-->
         <!--link-screen-->
@@ -47,7 +47,7 @@
             </div>
             <div class="navigation-links">
                 <a href="#" data-text="HOME" id="home-link">HOME</a>
-                <a href="#" data-text="ABOUT" id="about-link">ABOUT</a>
+                <a href="#about-me" data-text="ABOUT" id="about-link">ABOUT</a>
                 <a href="#" data-text="BLOG" id="blog-link">BLOG</a>
                 <a href="#" data-text="PORTFOLIO" id="portfolio-link">PORTFOLIO</a>
                 <a href="#" data-text="CONTACT" id="contact-link">CONTACT</a>
@@ -78,13 +78,15 @@
 
             </div>
             <!--Social Media Links end-->
+
+            <!-- Change the background -->
             <div class="header-content">
                 <div class="header-content-box">
-                    <div class="firstline"><span class="color">Bahare </span>Noorani</div>
+                    <div class="firstline">Parsa Samandi</div>
                     <div class="secondline">
                         I'm a
                         <span class="txt-rotate color" data-period="1200"
-                        data-rotate='[ " Painter.", " Digital Painter.", " Graphic Desginer.", " Freelancer." ]'></span>
+                        data-rotate='[ " Painter.", " Digital Painter.", " Graphic Desginer.", " Freelanc." ]'></span>
                         <span class="slash">|</span>
                     </div>
                     <div class="contact">
@@ -97,7 +99,7 @@
             </div>
             <!--header image-->
             <div class="header-image">
-                <img src="images/man.jpg" alt="logo">
+                <img src="images/ParsaSamandi.png" alt="logo">
             </div>
             <!--header image end-->
         </div>
@@ -193,41 +195,6 @@
                                     <a href="#0" class="color-orange" title="color-orange"></a>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--services header-->
-                <div class="services-heading wow">
-                    <span class="color">My</span> Services
-                </div>
-                <!--services header end-->
-                <!--services content-->
-                <div class="services-content">
-                    <div class="service-one service wow">
-                        <div class="service-img">
-                            <img src="images/coding.png" alt="service-one">
-                        </div>
-                        <div class="service-description">
-                            <h2>Web Designing</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
-                        </div>
-                    </div>
-                    <div class="service-two service wow">
-                        <div class="service-img">
-                            <img src="images/instagram.png" alt="service-two">
-                        </div>
-                        <div class="service-description">
-                            <h2>Social Media</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
-                        </div>
-                    </div>
-                    <div class="service-three service wow">
-                        <div class="service-img">
-                            <img src="images/bulb.png" alt="service-three">
-                        </div>
-                        <div class="service-description">
-                            <h2>Creative Design</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
                         </div>
                     </div>
                 </div>
@@ -642,7 +609,7 @@
             <!--copyright-section You Can Remove After Downloading-->
             <div class="footer">
                 <div class="footer-text">
-                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Willy Wonkas
+                    <img src="/images/Studio-Project.jpg" alt="copyright-img" class="images" height="14px"> Willy Wonkas
                 </div>
             </div>
             <!--copyright-section-->
@@ -654,10 +621,7 @@
     <script src="js/particles.js"></script>
     <script src="js/particles.min.js"></script>
     <script src="js/index.js"></script>
-    <!--particles script-->
-    <script>
-        particlesJS("particles", { "particles": { "number": { "value": 40, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 6, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true });
-    </script>
+    
 
 </body>
 
