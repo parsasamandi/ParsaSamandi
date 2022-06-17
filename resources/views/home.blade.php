@@ -57,7 +57,6 @@
         <!--Home Page-->
         <!--Menubar-->
         <div id="navigation-bar">
-            <img src="images/willy wonka logo.png" alt="logo">
             <div class="menubar">
                 <span class="first-span"></span>
                 <span class="second-span"></span>
@@ -67,10 +66,9 @@
         <!--Menubar End-->
         <!--Header-->
         <div id="header">
-            <div id="particles"></div>
             <!--Social Media Links-->
             <div class="social-media-links">
-                <a href="#"><img src="images/instagram logo.png" class="social-media" alt="instagram-logo"></a>
+                <a href="#"><img src="images/instagram logo.png" class="contactpic" alt="instagram-logo"></a>
                 <!--Your instagram homepage link inser in place of "#"-->
                 <a href="#"><img src="images/facebook logo.png" class="social-media" alt="facebook-logo"></a>
                 <a href="#"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
@@ -85,21 +83,15 @@
                     <div class="firstline">Parsa Samandi</div>
                     <div class="secondline">
                         I'm a
-                        <span class="txt-rotate color" data-period="1200"
-                        data-rotate='[ " Painter.", " Digital Painter.", " Graphic Desginer.", " Freelanc." ]'></span>
+                        <span class="txt-rotate" data-period="1200"
+                        data-rotate='[ " Laravel Developer.", " PHP Developer.", " Student." ]'></span>
                         <span class="slash">|</span>
-                    </div>
-                    <div class="contact">
-                        <a href="Mailto:#"><img src="images/mail.png" alt="email-pic" class="contactpic"></a>
-                        <!--Your email Id write in place of "#"-->
-                        <a href="Tel:#"><img src="images/call.png" alt="phone-pic" class="contactpic"></a>
-                        <!--Your telephone number Id write in place of "#"-->
                     </div>
                 </div>
             </div>
             <!--header image-->
             <div class="header-image">
-                <img src="images/ParsaSamandi.png" alt="logo">
+                <img src="images/Parsa.png" alt="logo">
             </div>
             <!--header image end-->
         </div>

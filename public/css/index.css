@@ -61,10 +61,10 @@ body{
     height: auto;
     overflow-x: hidden;
     width: 100%;
-    background: #171717;
+    background: #c70039;
 }
 #header{
-    background:#171717;
+    background#c70039;
     height: 100vh;
     width: 100%;;
     overflow: hidden;
@@ -224,10 +224,10 @@ body{
 }
 .header-image img{
     height: 100vh;
-    float: right;
+    float: left;
 }
 .header-image{
-    float: right;
+    float: left;
     height: auto;
     background-size: cover;
     background-position: center;
@@ -299,6 +299,7 @@ body{
     }
 }
 .social-media-links{
+    right: 0;
     height: 100vh;
     position: absolute;
     z-index: 2;
@@ -309,10 +310,9 @@ body{
     align-items: center;
     justify-content: center;
 }
-.social-media{
+.social-media {
     color: white;
-    width:  21px;
-    ;
+    width:  30px;
     opacity: .6;
     margin: 8px;
     transition: all .4s ease;
@@ -1356,7 +1356,7 @@ For devices with smaller width like mobile phone
 
 
 @media only screen and (max-width: 550px){
-    .header-content{
+    /* .header-content{
         height: 100vh;
         width: 100%;
         float: left;
@@ -1369,12 +1369,12 @@ For devices with smaller width like mobile phone
         font-weight: 500;
         letter-spacing: 2px;
         font-size: 40px;
-    }
+    } */
     .contact{
         display: none;
     }
     .header-image{
-        float: right;
+        float: left;
         height: auto;
         width: 0%;   
     }
@@ -1814,6 +1814,21 @@ for tabs and large phones
 
 
 @media all and (max-width: 1025px) and (min-width: 551px){
+    /* .header-content{
+        height: 100vh;
+        width: 100%;
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: whitesmoke;
+        font-family: raleway;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 40px;
+    } */
+
     .header-content{
         height: 100vh;
         width: 100%;
@@ -1828,8 +1843,9 @@ for tabs and large phones
         letter-spacing: 2px;
         font-size: 40px;
     }
+
     .header-image{
-        float: right;
+        float: left;
         height: auto;
         width: 0%;   
     }
