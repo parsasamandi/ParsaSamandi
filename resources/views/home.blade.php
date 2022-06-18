@@ -46,10 +46,10 @@
                 <span class="close-second"></span>
             </div>
             <div class="navigation-links">
-                <a href="#" data-text="HOME" id="home-link">HOME</a>
+                <a href="/" data-text="HOME" id="home-link">HOME</a>
                 <a href="#about-me" data-text="ABOUT" id="about-link">ABOUT</a>
                 <a href="#" data-text="BLOG" id="blog-link">BLOG</a>
-                <a href="#" data-text="PORTFOLIO" id="portfolio-link">PORTFOLIO</a>
+                <a href="#portfolio" data-text="PORTFOLIO" id="portfolio-link">PORTFOLIO</a>
                 <a href="#" data-text="CONTACT" id="contact-link">CONTACT</a>
             </div>
         </div>
@@ -68,11 +68,12 @@
         <div id="header">
             <!--Social Media Links-->
             <div class="social-media-links">
-                <a href="#"><img src="images/instagram logo.png" class="contactpic" alt="instagram-logo"></a>
+                <a href="#"><img src="images/instagram logo.png" class="social-media" alt="instagram-logo"></a>
                 <!--Your instagram homepage link inser in place of "#"-->
                 <a href="#"><img src="images/facebook logo.png" class="social-media" alt="facebook-logo"></a>
                 <a href="#"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
-                <a href="#"><img src="images/twitter logo.png" class="social-media" alt="twitter-logo"></a>
+                <a href="skype:<live:.cid.f370891a3d212e7b>?<action>"><img src="images/call.png" class="social-media" alt="skype-logo"></a>
+                <a href="#"><img src="images/mail.png" class="social-media" alt="email-logo"></a>
 
             </div>
             <!--Social Media Links end-->
@@ -91,7 +92,7 @@
             </div>
             <!--header image-->
             <div class="header-image">
-                <img src="images/Parsa.png" alt="logo">
+                <img src="images/ParsaSamandi.png" alt="logo">
             </div>
             <!--header image end-->
         </div>
@@ -103,31 +104,6 @@
             <div class="color-changer">
                 <div class="color-panel">
                     <img src="images/gear.png" alt="">
-                </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul>
-                            <li>
-                                <a href="#0" class="color-red " title="color-red"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-purple" title="color-purple"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-malt" title="color-malt"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-green" title="color-green"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-blue" title="color-blue"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-orange" title="color-orange"></a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
             <!--about content-->
@@ -163,31 +139,6 @@
                 <div class="color-changer">
                     <div class="color-panel">
                         <img src="images/gear.png" alt="">
-                    </div>
-                    <div class="color-selector">
-                        <div class="heading">Custom Colors</div>
-                        <div class="colors">
-                            <ul>
-                                <li>
-                                    <a href="#0" class="color-red " title="color-red"></a>
-                                </li>
-                                <li>
-                                    <a href="#0" class="color-purple" title="color-purple"></a>
-                                </li>
-                                <li>
-                                    <a href="#0" class="color-malt" title="color-malt"></a>
-                                </li>
-                                <li>
-                                    <a href="#0" class="color-green" title="color-green"></a>
-                                </li>
-                                <li>
-                                    <a href="#0" class="color-blue" title="color-blue"></a>
-                                </li>
-                                <li>
-                                    <a href="#0" class="color-orange" title="color-orange"></a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -275,37 +226,12 @@
                 <div class="color-panel">
                     <img src="images/gear.png" alt="">
                 </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul>
-                            <li>
-                                <a href="#0" class="color-red " title="color-red"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-purple" title="color-purple"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-malt" title="color-malt"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-green" title="color-green"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-blue" title="color-blue"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-orange" title="color-orange"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
             </div>
             <div class="portfolio-header"> <span class="color"> My </span> Portfolio
                 <span class="header-caption"> Some Of My <span class="color"> Works</span></span>
             </div>
             <div id="portfolio-content">
-                <div class="portfolio portfolio-first">
+                <div class="portfolio">
                     <div class="portfolio-image">
                         <img src="images/portfolio-first.jpg" alt="portfolio-first">
                     </div>
@@ -332,7 +258,7 @@
                     </div>
                 </div>
 
-                <div class="portfolio portfolio-third">
+                <div class="portfolio">
                     <div class="portfolio-image">
                         <img src="images/portfolio-third.jpg" alt="portfolio-third">
                     </div>
@@ -368,47 +294,18 @@
             <!--copyright-section-->
         </div>
         <!--portfolio end-->
-        <!--blog-->
+
+        <!--portfolio -->
         <div id="blog">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul>
-                            <li>
-                                <a href="#0" class="color-red " title="color-red"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-purple" title="color-purple"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-malt" title="color-malt"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-green" title="color-green"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-blue" title="color-blue"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-orange" title="color-orange"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="blog-header"> Blogs</span>
-                <span class="header-caption"> My Latest <span class="color"> blog posts.</span></span>
+           
+            <div class="blog-header"> Portfolio </span>
+                <span class="header-caption"> My <span class="color"> work samples.</span></span>
             </div>
             <div class="blog-content">
                 <div class="blogs">
                     <a href="#">
                         <div class="img">
                             <img src="images/post-one.jpg" alt="blog-one">
-                            <div class="blog-date">8 May,20</div>
                         </div>
                         <div class="blog-text">
                             <h3>Harleys In Hawaai</h3>
@@ -416,85 +313,15 @@
                                 illum, corrupti quo
                                 veniam saepe aliquid! Quis voluptates ratione consequuntur vel, perferendis cum
                                 provident? Magnam fugiat voluptas
-                                libero.</p>
+                                liberojsajsjdjasjdksadjksakjdjk. <button>test</button></p>
+                            <p>Button</p>
                         </div>
                     </a>
-                </div>
-                <div class="blogs">
-                    <a href="#">
-                        <div class="img">
-                            <img src="images/post-two.jpg" alt="blog-two">
-                            <div class="blog-date">16 Jan,20</div>
-                        </div>
-                        <div class="blog-text">
-                            <h3>Key To Be Productive</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt maiores,
-                                recusandae cupiditate ducimus a non tempora, architecto obcaecati eaque ipsum assumenda
-                                harum dolorum iusto tenetur
-                                eius eligendi dolor magnam sit!</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="blogs">
-                    <a href="#">
-                        <div class="img">
-                            <img src="images/post-three.jpg" alt="blog-three">
-                            <div class="blog-date">30 Nov,19</div>
-                        </div>
-                        <div class="blog-text">
-                            <h3>Caffeine Addict</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nostrum impedit
-                                ipsam perspiciatis ratione sapiente quasi optio reprehenderit, labore consequuntur
-                                suscipit cum quas.
-                                Officiis dolorem asperiores, ut necessitatibus quas doloremque?</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="blogs">
-                    <a href="#">
-                        <div class="img">
-                            <img src="images/post-four.jpg" alt="blog-four">
-                            <div class="blog-date">6 Jul,19</div>
-                        </div>
-                        <div class="blog-text">
-                            <h3>Web Development</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veniam ratione quam
-                                vitae,
-                                quibusdam explicabo rem debitis velit ipsa repellat, impedit nulla fuga? Amet corporis
-                                praesentium quae.
-                                Sed, quibusdam necessitatibus.</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="blogs">
-                    <a href="#">
-                        <div class="img">
-                            <img src="images/post-five.jpg" alt="blog-five">
-                            <div class="blog-date">1 Jun,19</div>
-                        </div>
-                        <div class="blog-text">
-                            <h3>Work From Home</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sunt eum necessitatibus rem
-                                dignissimos nulla mollitia cumque, provident officiis non vitae? Animi aut doloremque
-                                illum, soluta hic minus
-                                sint explicabo..</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="blogs">
-                    <a href="#">
-                        <div class="img">
-                            <img src="images/post-six.jpg" alt="blog-six">
-                            <div class="blog-date">28 Feb,19</div>
-                        </div>
-                        <div class="blog-text">
-                            <h3>Business Trip</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora dolorum fuga
-                                ratione, unde,
-                                ex quaerat iste numquam nemo nihil nobis rem sint quia recusandae dignissimos quos ut
-                                rerum nam.</p>
-                        </div>
-                    </a>
+                    <!-- <div class  >
+                    <div class="button"><a href="#"><button><span class="index"> View Project<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div> -->
+                    
                 </div>
             </div>
             <!--copyright-section You Can Remove After Downloading-->
