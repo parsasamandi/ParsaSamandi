@@ -365,7 +365,7 @@
             <!--copyright-section You Can Remove After Downloading-->
             <div class="footer">
                 <div class="footer-text">
-                    <img src="/images/Studio-Project.jpg" alt="copyright-img" class="images" height="14px"> Willy Wonkas
+                    <img src="/images/copyright.png" alt="copyright-img" class="images" height="14px"> Copyright reserved by Freetemplateview and Parsa Samandi
                 </div>
             </div>
             <!--copyright-section-->

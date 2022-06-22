@@ -1282,7 +1282,7 @@ form {
     margin: 14px;
     border-radius: 8px;
     outline: none;
-    background: #050505;
+    background: #F5F5F5;
     border: none;
     color: whitesmoke;
     font-family: poppins;
@@ -1303,9 +1303,9 @@ form {
     margin: 24px;
     border-radius: 8px;
     outline: none;
-    background: #050505;
+    background: #F5F5F5;
     border: none;
-    color: whitesmoke;
+    color: #c70039;
     font-family: poppins;
     font-size: 18px;
 }
@@ -1317,9 +1317,9 @@ form {
     height: 150px;
     border-radius: 8px;
     outline: none;
-    background: #050505;
+    background: #F5F5F5;
     border: none;
-    color: whitesmoke;
+    color: #c70039;
     font-family: poppins;
     font-size: 18px;
 }
@@ -2913,9 +2913,9 @@ for tabs and large phones
         margin: 24px;
         border-radius: 8px;
         outline: none;
-        background: #050505;
+        background: #F5F5F5;
         border: none;
-        color: whitesmoke;
+        color: #c70039;
         font-family: poppins;
         font-size: 18px;
     }
@@ -2927,9 +2927,9 @@ for tabs and large phones
         height: 150px;
         border-radius: 8px;
         outline: none;
-        background: #050505;
+        background: #F5F5F5;
         border: none;
-        color: whitesmoke;
+        color: #c70039;
         font-family: poppins;
         font-size: 18px;
     }
