@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Willy Wonkas - Personal Portfolio Website Template" />
+    <meta name="description" content="Parsa Samandi - Parsa Samandi's Personal Portfolio Website Template" />
     <meta name="keywords"
-        content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
-    <meta name="author" content="willy wonka" />
-    <title>Willy Wonkas - Personal Portfolio Website Template</title>
+        content="business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+    <meta name="author" content="Parsa Samandi" />
+    <title>Parsa Samandi</title>
     <!--favicon-img-->
     <link rel="icon" type="image/png" href="images/favicon.png">
     <!--favicon-img-->
@@ -23,19 +23,18 @@
     <div id="all">
         <!--mouse  follower-->
         <div class="cursor"></div>
-        <!--mouse  follower-->
+
         <!--loader-->
         <div id="loader">
             Parsa Samandi
         </div>
-        <!--loader-end-->
+
         <!--link-screen-->
         <div id="breaker">
         </div>
         <div id="breaker-two">
         </div>
-        <!--link-screen-->
-        <!--Main-Section-->
+
         <!--Navigator-fullscreen-->
         <div id="navigation-content">
             <div class="logo">
@@ -48,13 +47,13 @@
             <div class="navigation-links">
                 <a href="/" data-text="HOME" id="home-link">HOME</a>
                 <a href="#about-me" data-text="ABOUT" id="about-link">ABOUT</a>
-                <a href="#" data-text="BLOG" id="blog-link">BLOG</a>
                 <a href="#portfolio" data-text="PORTFOLIO" id="portfolio-link">PORTFOLIO</a>
                 <a href="#" data-text="CONTACT" id="contact-link">CONTACT</a>
             </div>
         </div>
-        <!--Navigator-Fullscreen END-->
-        <!--Home Page-->
+
+        <!---------------- Home Page ---------------->
+
         <!--Menubar-->
         <div id="navigation-bar">
             <div class="menubar">
@@ -63,20 +62,24 @@
                 <span class="third-span"></span>
             </div>
         </div>
-        <!--Menubar End-->
+
         <!--Header-->
         <div id="header">
             <!--Social Media Links-->
             <div class="social-media-links">
-                <a href="#"><img src="images/instagram logo.png" class="social-media" alt="instagram-logo"></a>
-                <!--Your instagram homepage link inser in place of "#"-->
-                <a href="#"><img src="images/facebook logo.png" class="social-media" alt="facebook-logo"></a>
-                <a href="#"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
-                <a href="skype:<live:.cid.f370891a3d212e7b>?<action>"><img src="images/call.png" class="social-media" alt="skype-logo"></a>
-                <a href="#"><img src="images/mail.png" class="social-media" alt="email-logo"></a>
-
+                <!-- Instagram -->
+                <a target="_blank" href="#"><img src="images/instagram logo.png" class="social-media"
+                        alt="instagram-logo"></a>
+                <!-- Linkedin -->
+                <a target="_blank" href="https://www.linkedin.com/in/parsa-samandi-0a42ba19a/"><img src="images/linkedin logo.png" class="social-media"
+                        alt="linkedin-logo"></a>
+                <!-- Skype -->
+                <a target="_blank" href="skype:<live:.cid.f370891a3d212e7b>?<action>"><img src="images/call.png"
+                        class="social-media" alt="skype-logo"></a>
+                <!-- Email -->
+                <a target="_blank" href="mailto:parsasamandizadeh@gmail.com"><img src="images/mail.png"
+                        class="social-media" alt="email-logo"></a>
             </div>
-            <!--Social Media Links end-->
 
             <!-- Change the background -->
             <div class="header-content">
@@ -85,16 +88,17 @@
                     <div class="secondline">
                         I'm a
                         <span class="txt-rotate" data-period="1200"
-                        data-rotate='[ " Laravel Developer.", " PHP Developer.", " Student." ]'></span>
+                            data-rotate='[ " Laravel Developer.", " PHP Developer.", " Student." ]'></span>
                         <span class="slash">|</span>
                     </div>
                 </div>
             </div>
+
             <!--header image-->
             <div class="header-image">
                 <img src="images/ParsaSamandi.png" alt="logo">
             </div>
-            <!--header image end-->
+
         </div>
         <!--Header End-->
         <!--HomePage End-->
@@ -220,6 +224,7 @@
             <!--copyright-section-->
         </div>
         <!--about end-->
+        
         <!--portfolio-->
         <div id="portfolio">
             <div class="color-changer">
@@ -227,8 +232,8 @@
                     <img src="images/gear.png" alt="">
                 </div>
             </div>
-            <div class="portfolio-header"> <span class="color"> My </span> Portfolio
-                <span class="header-caption"> Some Of My <span class="color"> Works</span></span>
+            <div class="portfolio-header"> My Portfolio
+                <span class="header-caption"> Some Of My Works </span>
             </div>
             <div id="portfolio-content">
                 <div class="portfolio">
@@ -244,7 +249,7 @@
                                             class="gg-arrow-right"></i></span></button></a></div>
                     </div>
                 </div>
-                <div class="portfolio portfolio-second">
+                <div class="portfolio">
                     <div class="portfolio-image">
                         <img src="images/portfolio-second.jpg" alt="portfolio-second">
                     </div>
@@ -271,7 +276,7 @@
                                             class="gg-arrow-right"></i></span></button></a></div>
                     </div>
                 </div>
-                <div class="portfolio portfolio-fourth">
+                <div class="portfolio">
                     <div class=" portfolio-image">
                         <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
                     </div>
@@ -295,78 +300,10 @@
         </div>
         <!--portfolio end-->
 
-        <!--portfolio -->
-        <div id="blog">
-           
-            <div class="blog-header"> Portfolio </span>
-                <span class="header-caption"> My <span class="color"> work samples.</span></span>
-            </div>
-            <div class="blog-content">
-                <div class="blogs">
-                    <a href="#">
-                        <div class="img">
-                            <img src="images/post-one.jpg" alt="blog-one">
-                        </div>
-                        <div class="blog-text">
-                            <h3>Harleys In Hawaai</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias dolore recusandae
-                                illum, corrupti quo
-                                veniam saepe aliquid! Quis voluptates ratione consequuntur vel, perferendis cum
-                                provident? Magnam fugiat voluptas
-                                liberojsajsjdjasjdksadjksakjdjk. <button>test</button></p>
-                            <p>Button</p>
-                        </div>
-                    </a>
-                    <!-- <div class  >
-                    <div class="button"><a href="#"><button><span class="index"> View Project<i
-                                            class="gg-arrow-right"></i></span></button></a></div>
-                    </div> -->
-                    
-                </div>
-            </div>
-            <!--copyright-section You Can Remove After Downloading-->
-            <div class="footer">
-                <div class="footer-text">
-                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Willy Wonkas
-                </div>
-            </div>
-            <!--copyright-section-->
-        </div>
-        <!--blog end-->
         <!--contact-->
         <div id="contact">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul>
-                            <li>
-                                <a href="#0" class="color-red " title="color-red"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-purple" title="color-purple"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-malt" title="color-malt"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-green" title="color-green"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-blue" title="color-blue"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-orange" title="color-orange"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-header">Contact <span class="color"> Me</span>
-                <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div>
+            <div class="contact-header">Contact Me</span>
+                <div class="contact-header-caption"> Get In Touch.</div>
             </div>
             <div class="contact-content">
                 <!--Contact form-->
@@ -440,7 +377,7 @@
     <script src="js/particles.js"></script>
     <script src="js/particles.min.js"></script>
     <script src="js/index.js"></script>
-    
+
 
 </body>
 
