@@ -113,8 +113,8 @@
             <!--about content-->
             <div id="about-content">
                 <div class="about-header">
-                    About <span class="color">Me</span>
-                    <span class="header-caption">Get to Know <span class="color"> me.</span></span>
+                    About Me
+                    <span class="header-caption">Get to Know me.</span>
                 </div>
                 <div class="about-main">
                     <div class="about-first-paragraph wow">
@@ -128,7 +128,7 @@
                             have acquired the skills and knowledge necessary to make your project a success. I enjoy
                             every step while working.</span>
                         <div class="cv">
-                            <a href="#"><button>Download <span class="colors">CV</span></button></a>
+                            <a href="#"><button>Download CV</button></a>
                         </div>
                     </div>
                     <!--about picture-->
@@ -150,7 +150,7 @@
             <!--services end-->
             <div id="skills">
                 <div class="skills-header">
-                    My <span class="color"> Skills</span>
+                    My Skills
                 </div>
                 <div class="skills-content " style="text-align: center;">
                     <div class="skill-html skill">
@@ -196,16 +196,6 @@
                     <div class="skill-html skill">
                         <div class="skill-text">
                             <div class="html">
-                                JQuery
-                            </div>
-                        </div>
-                        <div class="html-prog wow prog">
-                            <div class="jquery-progress wow">94%</div>
-                        </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                            <div class="html">
                                 SEO
                             </div>
                         </div>
@@ -215,13 +205,8 @@
                     </div>
                 </div>
             </div>
-            <!--copyright-section You Can Remove After Downloading-->
-            <div class="footer">
-                <div class="footer-text">
-                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Willy Wonkas
-                </div>
-            </div>
-            <!--copyright-section-->
+            <!-- copyright -->
+            @include('footer')
         </div>
         <!--about end-->
         
@@ -238,14 +223,12 @@
             <div id="portfolio-content">
                 <div class="portfolio">
                     <div class="portfolio-image">
-                        <img src="images/portfolio-first.jpg" alt="portfolio-first">
+                        <img src="images/PouyaSamandiProject.png " alt="Pouya Samandi's project">
                     </div>
                     <div class="portfolio-text">
-                        <h2>App Idea</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
-                            expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem
-                            ducimus</p>
-                        <div class="button"><a href="#"><button><span class="index"> View Project<i
+                        <h2>Pouya Samandi</h2>
+                        <p>My brother's personal project made to display his projects and works</p>
+                        <div class="button"><a target="_blank" href="https://github.com/parsasamandi/PouyaSamandi"><button><span class="index"> View Project<i
                                             class="gg-arrow-right"></i></span></button></a></div>
                     </div>
                 </div>
@@ -290,13 +273,8 @@
                     </div>
                 </div>
             </div>
-            <!--copyright-section You Can Remove After Downloading-->
-            <div class="footer">
-                <div class="footer-text">
-                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Willy Wonkas
-                </div>
-            </div>
             <!--copyright-section-->
+            @include('footer')
         </div>
         <!--portfolio end-->
 
@@ -320,7 +298,6 @@
                         <textarea id="body" class="input-textarea" placeholder="message"></textarea>
                         <button type="button" id="submit" value="send">Submit</button>
                     </form>
-
                 </div>
                 <!--Contact form-->
                 <!--Contact information-->
@@ -362,13 +339,8 @@
                     <!--Contact information end-->
                 </div>
             </div>
-            <!--copyright-section You Can Remove After Downloading-->
-            <div class="footer">
-                <div class="footer-text">
-                    <img src="/images/copyright.png" alt="copyright-img" class="images" height="14px"> Copyright reserved by Freetemplateview and Parsa Samandi
-                </div>
-            </div>
-            <!--copyright-section-->
+            <!--copyright-->
+            @include('footer')
         </div>
         <!--contact end-->
     </div>
