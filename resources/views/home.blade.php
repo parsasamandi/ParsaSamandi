@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Parsa Samandi - Parsa Samandi's Personal Portfolio Website Template" />
-    <meta name="keywords"
-        content="business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+    <meta name="keywords" content="business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, 
+            professional cv, responsive portfolio, resume, resume theme, vcard" />
     <meta name="author" content="Parsa Samandi" />
     <title>Parsa Samandi</title>
     <!--favicon-img-->
@@ -26,7 +26,7 @@
 
         <!--loader-->
         <div id="loader">
-            Parsa Samandi
+            <span>Parsa</span>Samandi
         </div>
 
         <!--link-screen-->
@@ -48,7 +48,7 @@
                 <a href="/" data-text="HOME" id="home-link">HOME</a>
                 <a href="#about-me" data-text="ABOUT" id="about-link">ABOUT</a>
                 <a href="#portfolio" data-text="PORTFOLIO" id="portfolio-link">PORTFOLIO</a>
-                <a href="#" data-text="CONTACT" id="contact-link">CONTACT</a>
+                <a href="#contact" data-text="CONTACT" id="contact-link">CONTACT</a>
             </div>
         </div>
 
@@ -68,17 +68,17 @@
             <!--Social Media Links-->
             <div class="social-media-links">
                 <!-- Instagram -->
-                <a target="_blank" href="#"><img src="images/instagram logo.png" class="social-media"
-                        alt="instagram-logo"></a>
+                <a target="_blank" href="https://www.instagram.com/parsa_samandi/"><img src="images/instagram logo.png"
+                        class="social-media" alt="instagram-logo"></a>
                 <!-- Linkedin -->
-                <a target="_blank" href="https://www.linkedin.com/in/parsa-samandi-0a42ba19a/"><img src="images/linkedin logo.png" class="social-media"
-                        alt="linkedin-logo"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/parsa-samandi-0a42ba19a/"><img
+                        src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
                 <!-- Skype -->
                 <a target="_blank" href="skype:<live:.cid.f370891a3d212e7b>?<action>"><img src="images/call.png"
                         class="social-media" alt="skype-logo"></a>
                 <!-- Email -->
-                <a target="_blank" href="mailto:parsasamandizadeh@gmail.com"><img src="images/mail.png"
-                        class="social-media" alt="email-logo"></a>
+                <a href="mailto:parsasamandizadeh@gmail.com"><img src="images/mail.png" class="social-media"
+                        alt="email-logo"></a>
             </div>
 
             <!-- Change the background -->
@@ -105,11 +105,6 @@
         <!--Main-Section End-->
         <!--about-->
         <div id="about">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
-            </div>
             <!--about content-->
             <div id="about-content">
                 <div class="about-header">
@@ -120,20 +115,24 @@
                     <div class="about-first-paragraph wow">
                         <!--about description-->
                         <span class="about-first-line">
-                            I'm creative
-                            <span class="color">web developer</span>
-                            based in New York , USA </span>
+                            I'm a Junior Backend Developer
+                        </span>
                         <br>
-                        <span class="about-second-line"> With 20 years of experience as a professional Web developer, I
-                            have acquired the skills and knowledge necessary to make your project a success. I enjoy
-                            every step while working.</span>
+                        <span class="about-second-line"> My name is Parsa, a 17-year-old student with a GPA of A+ from
+                            grade 9 to 12, and a motivated Web Developer
+                            with 3+ years of experience in this field. I have completed the PHP programming probation
+                            period in an IT company, passed Java programming courses, and achieved an academic IELTS score of 6.5 (L: 7.5, S: 7,
+                            W: 6, R: 5.5). As a
+                            programmer and student, I have always shown hard work, organization, conscientiousness, and
+                            teamwork spirit to
+                            result in a high level of proficiency.</span>
                         <div class="cv">
-                            <a href="#"><button>Download CV</button></a>
+                            <a target="_blank" href="/files/ParsaSamandiResume.pdf"><button>Download CV</button></a>
                         </div>
                     </div>
                     <!--about picture-->
                     <div class="about-img">
-                        <img src="images/about.jpg" alt="Your Image">
+                        <img src="images/aboutMe.jpg" alt="Your Image">
                     </div>
                 </div>
 
@@ -170,7 +169,7 @@
                             </div>
                         </div>
                         <div class="html-prog wow prog">
-                            <div class="js-progress wow">90%</div>
+                            <div class="js-progress wow">40%</div>
                         </div>
                     </div>
                     <div class="skill-html skill">
@@ -209,7 +208,7 @@
             @include('footer')
         </div>
         <!--about end-->
-        
+
         <!--portfolio-->
         <div id="portfolio">
             <div class="color-changer">
@@ -222,54 +221,56 @@
             </div>
             <div id="portfolio-content">
                 <div class="portfolio">
+                    <div class=" portfolio-image">
+                        <img src="images/laravelAdminCMSProject.png" alt="portfolio-fourth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Laravel Admin Panel</h2>
+                        <p>This project is completed to help Laravel Developers make a Content Management System much
+                            easier by creating, reading, updating and deleting data only in one page.</p>
+                        <div class="button"><a href="#https://github.com/parsasamandi/laravel-admin-cms"><button><span
+                                        class="index"> View Project<i class="gg-arrow-right"></i></span></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio">
                     <div class="portfolio-image">
                         <img src="images/PouyaSamandiProject.png " alt="Pouya Samandi's project">
                     </div>
                     <div class="portfolio-text">
                         <h2>Pouya Samandi</h2>
-                        <p>My brother's personal project made to display his projects and works</p>
-                        <div class="button"><a target="_blank" href="https://github.com/parsasamandi/PouyaSamandi"><button><span class="index"> View Project<i
-                                            class="gg-arrow-right"></i></span></button></a></div>
+                        <p>My brother's personal project made to display his projects and works.</p>
+                        <div class="button"><a target="_blank"
+                                href="https://github.com/parsasamandi/PouyaSamandi"><button><span class="index"> View
+                                        Project<i class="gg-arrow-right"></i></span></button></a></div>
                     </div>
                 </div>
                 <div class="portfolio">
                     <div class="portfolio-image">
-                        <img src="images/portfolio-second.jpg" alt="portfolio-second">
+                        <img src="images/saraRajabiProject.png" alt="Sara Rajabi's project">
                     </div>
                     <div class="portfolio-text">
-                        <h2>Web Designing</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id cumque placeat minima ad
-                            laudantium suscipit
-                            voluptatem ducimus. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
-                        <div class="button"><a href="#"><button><span class="index"> View Project<i
-                                            class="gg-arrow-right"></i></span></button></a></div>
+                        <h2>Sara Rajabi</h2>
+                        <p>
+                            It is an e-commerce and shopping website for selling products to help people's language
+                            fluency, made for Sara Rajabi, a language fluency teacher.</p>
+                        <div class="button"><a target="_blank" href="https://github.com/parsur/SaraRajabi"><button><span
+                                        class="index"> View Project<i class="gg-arrow-right"></i></span></button></a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="portfolio">
                     <div class="portfolio-image">
-                        <img src="images/portfolio-third.jpg" alt="portfolio-third">
+                        <img src="images/mofidSanatProject.png" alt="portfolio-third">
                     </div>
                     <div class="portfolio-text">
-                        <h2>UI Designing</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
-                            expedita eius dignissimos
-                            .. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
-                        <div class="button"><a href="#"><button><span class="index"> View Project<i
-                                            class="gg-arrow-right"></i></span></button></a></div>
-                    </div>
-                </div>
-                <div class="portfolio">
-                    <div class=" portfolio-image">
-                        <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>Wow Graphics</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
-                            expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem
-                            ducimus</p>
-                        <div class="button"><a href="#"><button><span class="index"> View Project<i
-                                            class="gg-arrow-right"></i></span></button></a></div>
+                        <h2>Mofid Sanat</h2>
+                        <p>This project was completed for Pouya Samandi's business. He demanded to have an e-commerce
+                            website.</p>
+                        <div class="button"><a href="https://github.com/parsasamandi/MofidSanat"><button><span
+                                        class="index"> View Project<i class="gg-arrow-right"></i></span></button></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -294,8 +295,8 @@
                             <input id="name" type="text" placeholder="Name" class="input-name">
                             <input id="email" type="email" placeholder="Email" class="input-name">
                         </div>
-                        <input type="text" id="subject" placeholder="subject" class="input-subject">
-                        <textarea id="body" class="input-textarea" placeholder="message"></textarea>
+                        <input type="text" id="subject" placeholder="Subject" class="input-subject">
+                        <textarea id="body" class="input-textarea" placeholder="Message"></textarea>
                         <button type="button" id="submit" value="send">Submit</button>
                     </form>
                 </div>
@@ -310,21 +311,21 @@
                             <img src="./images/icon-name.png" class="icon" alt="name-icon">
                             <div class="contact-info-icon-text">
                                 <h6>Name</h6>
-                                <p>Arlo Brown</p>
+                                <p>Parsa Samandi</p>
                             </div>
                         </div>
                         <div class="contect-info-content-line">
                             <img src="./images/icon-location.png" class="icon" alt="location-icon">
                             <div class="contact-info-icon-text">
                                 <h6>Location</h6>
-                                <p>New York, USA</p>
+                                <p>Istanbul, Turkey</p>
                             </div>
                         </div>
                         <div class="contect-info-content-line">
                             <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
                             <div class="contact-info-icon-text">
-                                <h6>Call</h6>
-                                <p>+9865376531</p>
+                                <h6>Skype Name</h6>
+                                <a href="skype:<live:.cid.f370891a3d212e7b>?<action>"><p>live:.cid.f370891a3d212e7b</p></a>
                             </div>
                         </div>
 
@@ -332,7 +333,7 @@
                             <img src="./images/icon-email.png" class="icon" alt="email-icon">
                             <div class="contact-info-icon-text">
                                 <h6>Email</h6>
-                                <p>Info@example.com</p>
+                                <p>parsasamandizadeh@gmail.com</p>
                             </div>
                         </div>
                     </div>
