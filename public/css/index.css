@@ -1214,36 +1214,19 @@ button:hover .index {
 }
 
 .contact-content {
-    /* width: 90%;
+    width: 90%;
     margin: auto;
     height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center; */
-
-    width: 90%;
-    margin: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
 .contact-info {
-    /* width: 70%;
-    height: 100%;
-    background: url(../images/aboutTest.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 16px;
-    margin-bottom: 50px;
-    position: relative;
-    overflow: hidden; */
-
-    width: 70%;
+    width: 40%;
     height: 500px;
+    background: url(../images/aboutTest.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 16px;
@@ -1260,7 +1243,7 @@ button:hover .index {
     top: 0;
     left: 0;
     background: #101010;
-    opacity: .8;
+    opacity: 0.5;
     pointer-events: none;
 }
 
@@ -1367,16 +1350,6 @@ form button:hover {
 }
 
 .contect-info-content-line {
-    /* height: auto;
-    padding: 10px;
-    position: relative;
-    z-index: 2;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
-    margin: 0; */
-
     height: auto;
     padding: 10px;
     position: relative;
@@ -1385,7 +1358,7 @@ form button:hover {
     flex-direction: row;
     align-items: center;
     text-align: left;
-    margin-left: 30%;
+    margin-left: 32%;
 }
 
 .contact-info-icon-text {
@@ -1946,10 +1919,11 @@ For devices with smaller width like mobile phone
     .contact-info {
         width: 90%;
         height: 500px;
+        background: url(../images/contact-back.jpg);
         background-position: center;
         background-size: cover;
         border-radius: 16px;
-        margin-bottom: 25px;
+        margin-bottom: 50px;
         position: relative;
         overflow: hidden;
     }
@@ -2075,7 +2049,7 @@ For devices with smaller width like mobile phone
         flex-direction: row;
         align-items: center;
         text-align: left;
-        margin-left: 5%;
+        margin-left: 32%;
     }
 
     .contact-info-icon-text {
@@ -2505,8 +2479,8 @@ for tabs and large phones
     }
 
     .contact-info {
-        width: 70%;
-        height: 500px;
+        width: 40%;
+        height: 600px;
         background-position: center;
         background-size: cover;
         border-radius: 16px;
@@ -2638,7 +2612,7 @@ for tabs and large phones
         flex-direction: row;
         align-items: center;
         text-align: left;
-        margin-left: 30%;
+        margin-left: 32%;
     }
 
     .hire-me-section {
