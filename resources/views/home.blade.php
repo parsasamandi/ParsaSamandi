@@ -14,8 +14,7 @@
     <!--favicon-img-->
     <!--main css file should not be removed -->
     <link rel="stylesheet" href="css/index.css">
-    <!--main css file-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    
 </head>
 
 <body>
@@ -159,7 +158,7 @@
                             </div>
                         </div>
                         <div class="html-prog wow prog">
-                            <div class="html-progress wow">95%</div>
+                            <div class="html-progress wow">35%</div>
                         </div>
                     </div>
                     <div class="skill-html skill">
@@ -175,11 +174,11 @@
                     <div class="skill-html skill">
                         <div class="skill-text">
                             <div class="html">
-                                Adobe Ps
+                                Python
                             </div>
                         </div>
                         <div class="html-prog wow prog">
-                            <div class="adobe-progress wow">83%</div>
+                            <div class="adobe-progress wow">20%</div>
                         </div>
                     </div>
                     <div class="skill-html skill">
@@ -189,7 +188,7 @@
                             </div>
                         </div>
                         <div class="html-prog wow prog">
-                            <div class="php-progress wow">87%</div>
+                            <div class="php-progress wow">65%</div>
                         </div>
                     </div>
                     <div class="skill-html skill">
@@ -285,22 +284,6 @@
                 <div class="contact-header-caption"> Get In Touch.</div>
             </div>
             <div class="contact-content">
-                <!--Contact form-->
-                <div class="contact-form">
-                    <div class="form-header">
-                        Message Me
-                    </div>
-                    <form id="myForm" action="#">
-                        <div class="input-line">
-                            <input id="name" type="text" placeholder="Name" class="input-name">
-                            <input id="email" type="email" placeholder="Email" class="input-name">
-                        </div>
-                        <input type="text" id="subject" placeholder="Subject" class="input-subject">
-                        <textarea id="body" class="input-textarea" placeholder="Message"></textarea>
-                        <button type="button" id="submit" value="send">Submit</button>
-                    </form>
-                </div>
-                <!--Contact form-->
                 <!--Contact information-->
                 <div class="contact-info">
                     <div class="contact-info-header">
@@ -346,6 +329,8 @@
         <!--contact end-->
     </div>
     <!--all the divisions-->
+    <!--main css file-->
+    <script src="js/jsap.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/particles.min.js"></script>
