@@ -3,7 +3,7 @@
     <div class="footer-text">
         <img src="/images/copyright.png" alt="copyright-img" class="images" height="14px">
         <!-- Copyright reserved by -->
-        TemplateMonster and Parsa Samandi
+        TemplateMonster and Parsa Samandi. All rights reserved
     </div>
 </div>
 <!--copyright-section-->

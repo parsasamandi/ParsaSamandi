@@ -569,6 +569,7 @@ body {
 }
 
 .about-second-line {
+    text-align: justify;
     opacity: .8;
     font-size: 18px;
     font-weight: 200;
@@ -747,7 +748,7 @@ body {
     font-family: raleway;
     color: whitesmoke;
     padding: 10px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     padding-top: 30px;
     font-weight: 900;
 }
@@ -1230,7 +1231,7 @@ button:hover .index {
     background-position: center;
     background-size: cover;
     border-radius: 16px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     position: relative;
     overflow: hidden;
 }
@@ -1919,11 +1920,10 @@ For devices with smaller width like mobile phone
     .contact-info {
         width: 90%;
         height: 500px;
-        background: url(../images/contact-back.jpg);
         background-position: center;
         background-size: cover;
         border-radius: 16px;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         position: relative;
         overflow: hidden;
     }
@@ -1974,7 +1974,7 @@ For devices with smaller width like mobile phone
         border-radius: 8px;
         outline: none;
         border: none;
-        color: whitesmoke;
+        color: #c70039;
         font-family: poppins;
         font-size: 16px;
     }
@@ -2049,7 +2049,7 @@ For devices with smaller width like mobile phone
         flex-direction: row;
         align-items: center;
         text-align: left;
-        margin-left: 32%;
+        margin-left: 5%;
     }
 
     .contact-info-icon-text {
@@ -2061,11 +2061,6 @@ For devices with smaller width like mobile phone
     .contact-info-icon-text h6 {
         font-size: 15px;
         opacity: .8;
-    }
-
-    .contact-info-icon-text p {
-        font-size: 14px;
-        opacity: .7;
     }
 
     .hire-me-section {
@@ -2602,7 +2597,7 @@ for tabs and large phones
         flex-direction: row;
         align-items: center;
         text-align: left;
-        margin-left: 32%;
+        margin-left: 5%;
     }
 
     .hire-me-section {
