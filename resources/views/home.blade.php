@@ -172,16 +172,6 @@
                     <div class="skill-html skill">
                         <div class="skill-text">
                             <div class="html">
-                                Python
-                            </div>
-                        </div>
-                        <div class="html-prog wow prog">
-                            <div class="adobe-progress wow">20%</div>
-                        </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                            <div class="html">
                                 PHP
                             </div>
                         </div>
@@ -192,195 +182,235 @@
                     <div class="skill-html skill">
                         <div class="skill-text">
                             <div class="html">
-                                SEO
+                                Laravel Framework
                             </div>
                         </div>
                         <div class="html-prog wow prog">
-                            <div class="seo-progress wow">84%</div>
+                            <div style="width:70%;" class="php-progress wow">70%</div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- copyright -->
-            @include('footer')
-        </div>
-        <!--about end-->
-
-        <!--portfolio-->
-        <div id="portfolio">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
-            </div>
-            <div class="portfolio-header"> My Portfolio
-                <span class="header-caption"> Some Of My Works </span>
-            </div>
-            <div id="portfolio-content">
-                <div class="portfolio">
-                    <div class=" portfolio-image">
-                        <img src="images/laravelAdminCMSProject.png" alt="portfolio-fourth">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>Laravel Admin Panel</h2>
-                        <p>This project is completed to help Laravel Developers make a Content Management System much
-                            easier by creating, reading, updating and deleting data only in one page.</p>
-                        <div class="button"><a href="#https://github.com/parsasamandi/laravel-admin-cms"><button><span
-                                        class="index"> View Project<i class="gg-arrow-right"></i></span></button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio">
-                    <div class="portfolio-image">
-                        <img src="images/PouyaSamandiProject.png " alt="Pouya Samandi's project">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>Pouya Samandi</h2>
-                        <p>My brother's personal project made to display his projects and works.</p>
-                        <div class="button"><a target="_blank"
-                                href="https://github.com/parsasamandi/PouyaSamandi"><button><span class="index"> View
-                                        Project<i class="gg-arrow-right"></i></span></button></a></div>
-                    </div>
-                </div>
-                <div class="portfolio">
-                    <div class="portfolio-image">
-                        <img src="images/saraRajabiProject.png" alt="Sara Rajabi's project">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>Sara Rajabi</h2>
-                        <p>
-                            It is an e-commerce and shopping website for selling products to help people's language
-                            fluency, made for Sara Rajabi, a language fluency teacher.</p>
-                        <div class="button"><a target="_blank" href="https://github.com/parsur/SaraRajabi"><button><span
-                                        class="index"> View Project<i class="gg-arrow-right"></i></span></button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio">
-                    <div class="portfolio-image">
-                        <img src="images/mofidSanatProject.png" alt="portfolio-third">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>Mofid Sanat</h2>
-                        <p>This project was completed for Pouya Samandi's business. He demanded to have an e-commerce
-                            website.</p>
-                        <div class="button"><a href="https://github.com/parsasamandi/MofidSanat"><button><span
-                                        class="index"> View Project<i class="gg-arrow-right"></i></span></button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--copyright-section-->
-            @include('footer')
-        </div>
-        <!--portfolio end-->
-
-        <!--contact-->
-        <div id="contact">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul>
-                            <li>
-                                <a href="#0" class="color-red " title="color-red"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-purple" title="color-purple"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-malt" title="color-malt"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-green" title="color-green"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-blue" title="color-blue"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-orange" title="color-orange"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-header">Contact Me
-                <div class="contact-header-caption"> Get In Touch.</div>
-            </div>
-            <div class="contact-content">
-                <!--Contact form-->
-                <div class="contact-form">
-                    <div class="form-header">
-                        Message Me
-                    </div>
-                    <form id="myForm" action="#">
-                        <div class="input-line">
-                            <input id="name" type="text" placeholder="Name" class="input-name">
-                            <input id="email" type="email" placeholder="Email" class="input-name">
-                        </div>
-                        <input type="text" id="subject" placeholder="subject" class="input-subject">
-                        <textarea id="body" class="input-textarea" placeholder="message"></textarea>
-                        <button type="button" id="submit" value="send">Submit</button>
-                    </form>
-
-                </div>
-                <!--Contact form-->
-                <!--Contact information-->
-                <div class="contact-info">
-                    <div class="contact-info-header">
-                        Contact Info
-                    </div>
-                    <div class="contact-info-content">
-                        <div class="contect-info-content-line">
-                            <img src="./images/icon-name.png" class="icon" alt="name-icon">
-                            <div class="contact-info-icon-text">
-                                <h6>Name</h6>
-                                <p>Arlo Brown</p>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                Python
                             </div>
                         </div>
-                        <div class="contect-info-content-line">
-                            <img src="./images/icon-location.png" class="icon" alt="location-icon">
-                            <div class="contact-info-icon-text">
-                                <h6>Location</h6>
-                                <p>New York, USA</p>
+                        <div class="html-prog wow prog">
+                            <div style="width: 20%;" class="adobe-progress wow">20%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                Microsaft word
                             </div>
                         </div>
-                        <div class="contect-info-content-line">
-                            <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
-                            <div class="contact-info-icon-text">
-                                <h6>Call</h6>
-                                <p>+9865376531</p>
+                        <div class="html-prog wow prog">
+                            <div style="width: 60% !important" class="php-progress wow">60%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                Microsaft Powerpoint
                             </div>
                         </div>
+                        <div class="html-prog wow prog">
+                            <div style="width: 60% !important" class="php-progress wow">60%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                WordPress
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div style="width: 30% !important" class="php-progress wow">30%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                Git
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div style="width: 60% !important" class="php-progress wow">60%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                HTML/CSS
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="html-progress wow">35%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- copyright -->
+                @include('footer')
+            </div>
+            <!--about end-->
 
-                        <div class="contect-info-content-line">
-                            <img src="./images/icon-email.png" class="icon" alt="email-icon">
-                            <div class="contact-info-icon-text">
-                                <h6>Email</h6>
-                                <p>Info@example.com</p>
+            <!--portfolio-->
+            <div id="portfolio">
+                <div class="color-changer">
+                    <div class="color-panel">
+                        <img src="images/gear.png" alt="">
+                    </div>
+                </div>
+                <div class="portfolio-header"> My Portfolio
+                    <span class="header-caption"> Some Of My Works </span>
+                </div>
+                <div id="portfolio-content">
+                    <div class="portfolio">
+                        <div class=" portfolio-image">
+                            <img src="images/laravelAdminCMSProject.png" alt="portfolio-fourth">
+                        </div>
+                        <div class="portfolio-text">
+                            <h2>Laravel Admin Panel</h2>
+                            <p>This project is completed to help Laravel Developers make a Content Management System
+                                much
+                                easier by creating, reading, updating and deleting data only in one page.</p>
+                            <div class="button"><a
+                                    href="#https://github.com/parsasamandi/laravel-admin-cms"><button><span
+                                            class="index"> View Project<i
+                                                class="gg-arrow-right"></i></span></button></a>
                             </div>
                         </div>
                     </div>
-                    <!--Contact information end-->
-                </div>
-            </div>
-            <!--copyright-section-->
-            @include('footer')
-            <!--copyright-section-->
-        </div>
-        <!--contact end-->
+                    <div class="portfolio">
+                        <div class="portfolio-image">
+                            <img src="images/PouyaSamandiProject.png " alt="Pouya Samandi's project">
+                        </div>
+                        <div class="portfolio-text">
+                            <h2>Pouya Samandi</h2>
+                            <p>My brother's personal project made to display his projects and works.</p>
+                            <div class="button"><a target="_blank"
+                                    href="https://github.com/parsasamandi/PouyaSamandi"><button><span class="index">
+                                            View
+                                            Project<i class="gg-arrow-right"></i></span></button></a></div>
+                        </div>
+                    </div>
+                    <div class="portfolio">
+                        <div class="portfolio-image">
+                            <img src="images/saraRajabiProject.png" alt="Sara Rajabi's project">
+                        </div>
+                        <div class="portfolio-text">
+                            <h2>Sara Rajabi</h2>
+                            <p>
+                                It is an e-commerce and shopping website for selling products to help people's language
+                                fluency, made for Sara Rajabi, a language fluency teacher.</p>
+                            <div class="button"><a target="_blank"
+                                    href="https://github.com/parsur/SaraRajabi"><button><span class="index"> View
+                                            Project<i class="gg-arrow-right"></i></span></button></a>
+                            </div>
+                        </div>
+                    </div>
 
-        <!--all the divisions-->
-        <!--main css file-->
-        <script src="js/jsap.min.js"></script>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/particles.js"></script>
-        <script src="js/particles.min.js"></script>
-        <script src="js/index.js"></script>
+                    <div class="portfolio">
+                        <div class="portfolio-image">
+                            <img src="images/mofidSanatProject.png" alt="portfolio-third">
+                        </div>
+                        <div class="portfolio-text">
+                            <h2>Mofid Sanat</h2>
+                            <p>This project was completed for Pouya Samandi's business. He demanded to have an
+                                e-commerce
+                                website.</p>
+                            <div class="button"><a href="https://github.com/parsasamandi/MofidSanat"><button><span
+                                            class="index"> View Project<i
+                                                class="gg-arrow-right"></i></span></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--copyright-section-->
+                @include('footer')
+            </div>
+            <!--portfolio end-->
+
+            <!--contact-->
+            <div id="contact">
+                <div class="contact-header">Contact Me
+                    <div class="contact-header-caption"> Get In Touch.</div>
+                </div>
+                <div class="contact-content">
+                    <!--Contact form-->
+                    <div class="contact-form">
+                        <div class="form-header">
+                            Message Me
+                        </div>
+                        <form id="myForm" action="#">
+                            <div class="input-line">
+                                <input id="name" type="text" placeholder="Name" class="input-name">
+                                <input id="email" type="email" placeholder="Email" class="input-name">
+                            </div>
+                            <input type="text" id="subject" placeholder="subject" class="input-subject">
+                            <textarea id="body" class="input-textarea" placeholder="message"></textarea>
+                            <button type="button" id="submit" value="send">Submit</button>
+                        </form>
+
+                    </div>
+                    <!--Contact form-->
+                    <!--Contact information-->
+                    <div class="contact-info">
+                        <div class="contact-info-header">
+                            Contact Info
+                        </div>
+                        <div class="contact-info-content">
+                            <div class="contect-info-content-line">
+                                <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                                <div class="contact-info-icon-text">
+                                    <h6>Name</h6>
+                                    <p>Parsa Samandi</p>
+                                </div>
+                            </div>
+                            <div class="contect-info-content-line">
+                                <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                                <div class="contact-info-icon-text">
+                                    <h6>Location</h6>
+                                    <p>Istanbul, Turkey</p>
+                                </div>
+                            </div>
+                            <div class="contect-info-content-line">
+                                <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                                <div class="contact-info-icon-text">
+                                    <h6>Skype Name</h6>
+                                    <a href="skype:<live:.cid.f370891a3d212e7b>?<action>">
+                                        <p>live:.cid.f370891a3d212e7b</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="contect-info-content-line">
+                                <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                                <div class="contact-info-icon-text">
+                                    <h6>Email</h6>
+                                    <a ref="mailto:parsasamandizadeh@gmail.com">
+                                        <p>parsasamandizadeh@gmail.com</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Contact information end-->
+                    </div>
+                </div>
+                <!--copyright-section-->
+                @include('footer')
+                <!--copyright-section-->
+            </div>
+            <!--contact end-->
+
+            <!--all the divisions-->
+            <!--main css file-->
+            <script src="js/jsap.min.js"></script>
+            <script src="js/jquery.min.js"></script>
+            <script src="js/particles.js"></script>
+            <script src="js/particles.min.js"></script>
+            <script src="js/index.js"></script>
 
 
 </body>

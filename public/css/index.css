@@ -1281,7 +1281,7 @@ form {
     outline: none;
     background: #F5F5F5;
     border: none;
-    color: whitesmoke;
+    color: #c70039;
     font-family: poppins;
     font-size: 18px;
 }
@@ -1358,7 +1358,7 @@ form button:hover {
     flex-direction: row;
     align-items: center;
     text-align: left;
-    margin-left: 32%;
+    margin-left: 30%;
 }
 
 .contact-info-icon-text {
@@ -1377,7 +1377,7 @@ form button:hover {
 }
 
 .contact-info-icon-text p {
-    font-size: 14px;
+    font-size: 12px;
     opacity: .7;
 }
 
@@ -2479,14 +2479,8 @@ for tabs and large phones
     }
 
     .contact-info {
-        width: 40%;
-        height: 600px;
-        background-position: center;
-        background-size: cover;
-        border-radius: 16px;
-        margin-bottom: 50px;
-        position: relative;
-        overflow: hidden;
+        width: 70%;
+        height: 500px;
     }
 
     .contact-info::before {
@@ -2534,9 +2528,7 @@ for tabs and large phones
         margin: 14px;
         border-radius: 8px;
         outline: none;
-        background: #050505;
         border: none;
-        color: whitesmoke;
         font-family: poppins;
         font-size: 16px;
     }
@@ -2569,9 +2561,7 @@ for tabs and large phones
         height: 140px;
         border-radius: 8px;
         outline: none;
-        background: #050505;
         border: none;
-        color: whitesmoke;
         font-family: poppins;
         font-size: 16px;
     }
@@ -2894,9 +2884,7 @@ for tabs and large phones
         margin: 14px;
         border-radius: 8px;
         outline: none;
-        background: #050505;
         border: none;
-        color: whitesmoke;
         font-family: poppins;
         font-size: 18px;
     }
