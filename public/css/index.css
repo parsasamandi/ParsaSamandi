@@ -314,6 +314,10 @@ body {
     color: rgb(255, 255, 255, .8);
 }
 
+.header-content .secondline span {
+    background-color: #c70039;
+}
+
 .slash {
     animation-name: animateslash;
     animation-duration: .8s;
@@ -1388,7 +1392,7 @@ form button:hover {
 }
 
 .footer {
-    margin-top: 2em;
+    margin-top: 1.5em;
     background: #F5F5F5;
     width: 100%;
     padding: 20px;
@@ -1407,6 +1411,10 @@ form button:hover {
     font-size: 18px;
     font-weight: 400;
     opacity: 1;
+}
+
+.footer a {
+    color: #c70039;
 }
 
 .color-changer {

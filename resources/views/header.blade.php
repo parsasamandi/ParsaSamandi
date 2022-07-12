@@ -6,8 +6,8 @@
     <!--Social Media Links-->
     <div class="social-media-links">
         <!-- Instagram -->
-        <a target="_blank" href="https://www.instagram.com/parsa_samandi/"><img src="images/instagram logo.png"
-                class="social-media" alt="instagram-logo"></a>
+        <a target="_blank" href="https://github.com/parsasamandi"><img src="images/github logo.png"
+                class="social-media" alt="github-logo"></a>
         <!-- Linkedin -->
         <a target="_blank" href="https://www.linkedin.com/in/parsa-samandi-0a42ba19a/"><img
                 src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
@@ -33,7 +33,7 @@
 
     <!--header image-->
     <div class="header-image">
-        <img src="images/ParsaSamandi.png" alt="logo">
+        <img src="images/parsaSamand3.png" alt="logo">
     </div>
 
 </div>
